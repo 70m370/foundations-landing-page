@@ -108,3 +108,18 @@ button {
     width: 50px;
     background-color: #555;
 }
+
+.t-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 36px;
+}
+
+.S1S-container {
+    display: flex;
+    justify-content: space-around;
+}
