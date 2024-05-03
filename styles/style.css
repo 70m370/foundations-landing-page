@@ -4,8 +4,10 @@ body {
     min-height: 100vh;
 }
 
-/*UNDELINE EVERYTHING*/
-
+/*UNDERLINE EVERYTHING
+* {
+    outline: 2px solid rgb(10, 8, 8);
+}*/
 
 
 /*HEADER - SECTION*/
@@ -166,4 +168,29 @@ img {
     height: 350px;
     justify-content: center;
     align-items: center;
+}
+
+.F1S-container {
+    display: flex;
+    background-color: #3882f6;
+    height: 125px;
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    border-radius: 12px;
+    color: white;
+}
+
+/*FOOTER*/
+
+.Footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #1f2937;
+    padding: 16px;
+    height: 24px;
+    font-size: 12px;
 }
